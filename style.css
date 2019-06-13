@@ -137,22 +137,29 @@ font-family: 'Open Sans Condensed', sans-serif;
 .slider_write h1{
 	font-size:7vw;
 	font-weight:800;
+	color:#00FFE4;
 }
 .slider_write h2{
 	font-size:5vw;
+	color:black;
 }
 .slider_write h3{
 	color:yellow;
 	font-size:4vw;
 }
 .slider_write{
-	text-shadow:2px 2px black;
+	text-shadow:2px 2px white;
 	color:white;
-	
 	position:absolute;
 	top:10%;
 	left:9%;
 	text-align:center;
+}
+.slider_write span{
+    color:green;
+}
+.slider_write b{
+    color:red;
 }
 /*End the Slider section */
 
@@ -221,6 +228,9 @@ font-family: 'Open Sans Condensed', sans-serif;
 .custom_btn{
 	background:none;
 	color:white!important;
+}
+.custom_btn:hover{
+    color:black!important;
 }
 .checkbox, .radio{
 	display:unset;
@@ -293,8 +303,32 @@ height:100%;
 width:100%;
 }
 /*Starting the Contact us Section code*/
-
-
-
+#Con_us{
+    color:yellow;
+}
+#Con_contact{
+    font-size:18px;
+    color:Yellow;
+}
+#Con_phone{
+    color:green;
+    font-size:18px;
+}
+#Con_email{
+    font-size:18px;
+    color:green;
+}
+#Con_internet{
+    color:green;
+    font-size:18px;
+}
+#Con_location{
+    font-size:50px;
+    color:yellow;
+}
+/*Elevator code*/
+#more_elevator{
+    display:none;
+}
 
 

@@ -35,7 +35,7 @@
 							<li class="dropdown">
 							  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Product<span class="caret"></span></a>
 							  <ul class="dropdown-menu">
-								<li><a href="#portfolio">Elevator</a></li>
+								<li><a href="#elevator_product">Elevator</a></li>
 								<li><a href="#portfolio">Escalator</a></li>
 								<li><a href="#portfolio">Generator</a></li>
 								<li><a href="#portfolio">Substation</a></li>
@@ -72,7 +72,7 @@
 					
 					<div class="slider_write">
 						
-							<h1>Welcome to EVERGREEN</h1>
+						<h1>WELCOME TO <b>EVER</b><span>GREEN</span></h1>
 							<center><h2>POWER &amp; ENGINEERING LTD</h2></center>
 							<h3>Always Complete Technical Solution</h3>
 							
@@ -86,7 +86,7 @@
 					</div>
 					<div class="slider_write">
 						
-						<h1>EVERGREEN</h1>
+						<h1><b>EVER</b><span>GREEN</span></h1>
 							<h2>POWER &amp; ENGINEERING LTD</h2>
 							<h3>Always Complete Technical Solution</h3>
 							
@@ -100,7 +100,7 @@
 					</div>
 					<div class="slider_write">
 						
-							<h1>EVERGREEN</h1>
+						<h1><b>EVER</b><span>GREEN</span></h1>
 							<h2>POWER &amp; ENGINEERING LTD</h2>
 							<h3>Always Complete Technical Solution</h3>
 						
@@ -114,7 +114,7 @@
 					
 					<div class="slider_write">
 						
-							<h1>EVERGREEN</h1>
+						<h1><b>EVER</b><span>GREEN</span></h1>
 							<h2>POWER &amp; ENGINEERING LTD</h2>
 							<h3>Always Complete Technical Solution</h3>
 							
@@ -246,11 +246,10 @@ We ensure that the best safety equipments are fitted and tested at each and ever
 	<!---End Recent sales part---->
 	
 	<!----Starting Portfolio section----->
-	<div class="container">
+	<div class="container" id="elevator_product">
 		<div class="row">
 			<div class="portfolio_section" id="portfolio">
-				<center><h1>Your Product</h1>
-				<p>Select Your Product</p></center>
+				<center><h1 >Our Elevator Product</h1> </center>
 				<div class="row">
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
@@ -260,6 +259,14 @@ We ensure that the best safety equipments are fitted and tested at each and ever
                          src="asset/images/Shotton-Lfts-Commercial-Lifts-Office-Lifts.jpg"
                          alt="Another alt text">
                 </a>
+				<div class="elevator_content">
+					<label>Model : </label> <span> Elevator-9980</span><br /> <label>Carry : </label><span> 1000 KG </span><br />
+					<label>Quality : </label><span> Heigh</span><br />
+					<label>Warranty : </label><span> 3 Year</span><br />
+					<label>Price : </label><span> 3000 $</span></span><br />
+					<button id="myBtn_elevator" onclick=read() class="btn btn-primary">More</button>
+				</div>
+
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
@@ -269,6 +276,13 @@ We ensure that the best safety equipments are fitted and tested at each and ever
                          src="asset/images/harold-wijnholds-1193962-unsplash.jpg"
                          alt="Another alt text">
                 </a>
+				<div class="elevator_content">
+					<label>Model : </label> <span> Elevator-9980</span><br />
+					<label>Carry : </label><span> 1000 KG </span><br />
+					<label>Quality : </label><span> Heigh</span><br />
+					<label>Warranty : </label><span> 3 Year</span><br />
+						<label>Price : </label><span> 3000 $</span>
+				</div>
             </div>
 
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
@@ -279,6 +293,13 @@ We ensure that the best safety equipments are fitted and tested at each and ever
                          src="asset/images/3.jpg"
                          alt="Another alt text">
                 </a>
+				<div class="elevator_content">
+					<label>Model : </label> <span> Elevator-9980</span><br />
+					<label>Carry : </label><span> 1000 KG </span><br />
+					<label>Quality : </label><span> Heigh</span><br />
+					<label>Warranty : </label><span> 3 Year</span><br />
+					<label>Price : </label><span> 3000 $</span>
+				</div>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Quelity : Heigh"
@@ -288,6 +309,13 @@ We ensure that the best safety equipments are fitted and tested at each and ever
                          src="asset/images/Shotton-Lfts-Commercial-Lifts-Office-Lifts.jpg"
                          alt="Another alt text">
                 </a>
+				<div class="elevator_content">
+					<label>Model : </label> <span> Elevator-9980</span><br />
+					<label>Carry : </label><span> 1000 KG </span><br />
+					<label>Quality : </label><span> Heigh</span><br />
+					<label>Warranty : </label><span> 3 Year</span><br />
+					<label>Price : </label><span> 3000 $</span>
+				</div>
             </div>
 			</div>
 		</div>
@@ -405,7 +433,7 @@ We ensure that the best safety equipments are fitted and tested at each and ever
 	<!--Starting the footer Contact Section -->
 	<div class="container-fluid">
 		<div class="row contact_us">
-			<center><h2><i class="fa fa-address-book"></i> Contact Us</h2></center>
+			<center><h2><i class="fa fa-address-book" id="Con_us"></i> Contact Us</h2></center>
 			<div class="col-md-6">
 				<b> <i class="fa fa-id-card" id="Con_contact"></i> Contact _ _ </b><br /><br />
                 <label> <i class="fa fa-phone" id="Con_phone"></i> Phone : </label><span> <a href="tel:+8801794593235">+8801794593235</a></span><br />
